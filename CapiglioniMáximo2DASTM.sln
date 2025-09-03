@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio01", "Ejercicio01\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio02", "Ejercicio02\Ejercicio02.csproj", "{B665D1BD-66F8-42F3-B41A-8303664DC249}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TP02", "TP02", "{FF7AFC59-A87D-4972-A655-D1F89198D53D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudAdoNet", "CrudAdoNet\CrudAdoNet.csproj", "{2DF769AD-8CD2-44CA-A3AA-4E17638C2331}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{B665D1BD-66F8-42F3-B41A-8303664DC249}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B665D1BD-66F8-42F3-B41A-8303664DC249}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B665D1BD-66F8-42F3-B41A-8303664DC249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF769AD-8CD2-44CA-A3AA-4E17638C2331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF769AD-8CD2-44CA-A3AA-4E17638C2331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF769AD-8CD2-44CA-A3AA-4E17638C2331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF769AD-8CD2-44CA-A3AA-4E17638C2331}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{72CE06F5-001C-4888-B282-6C527279AA66} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B665D1BD-66F8-42F3-B41A-8303664DC249} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2DF769AD-8CD2-44CA-A3AA-4E17638C2331} = {FF7AFC59-A87D-4972-A655-D1F89198D53D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {976EC5E2-1ADC-406B-99A5-0D3D0BBF5BBE}
