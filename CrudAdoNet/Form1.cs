@@ -36,5 +36,10 @@ namespace CrudAdoNet
             ProductosDB productos = new ProductosDB();
             dataGridView1.DataSource =  productos.ObtenerLista();
         }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            Actualizar();
+        }
     }
 }
